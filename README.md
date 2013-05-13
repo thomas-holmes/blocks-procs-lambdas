@@ -1,4 +1,4 @@
-Procs, Blocks & Lambdas
+Procs, Blocks, & Lambdas
 =======================
 
 A concise presentation on Ruby's `Proc`, `Block`, and `Lambda` functionality for Rails Girls Atlanta.
