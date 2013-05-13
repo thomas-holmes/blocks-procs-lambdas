@@ -1,7 +1,7 @@
-Procs, Blocks, & Lambdas
+Blocks, Procs, & Lambdas
 =======================
 
-A concise presentation on Ruby's `Proc`, `Block`, and `Lambda` functionality for Rails Girls Atlanta.
+A concise presentation on Ruby's `Block`, `Proc`, and `Lambda` functionality for Rails Girls Atlanta.
 
 ---
 ### Run it yourself
