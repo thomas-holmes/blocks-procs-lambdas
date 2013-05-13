@@ -49,9 +49,9 @@
 <section class="slide">
   <h2>So what is a block?</h2>
   <div class="slide">
-    <div class="code" mode="ruby" style="display: none;"># Look familiar?
+    <textarea class="code" mode="ruby" style="display: none;"># Look familiar?
 
-(1..10).select { |number| number.even? }</div>
+(1..10).select { |number| number.even? }</textarea>
   </div>
 
   </br>
@@ -59,17 +59,17 @@
   <div class="slide">
     <textarea class="code" mode="ruby" style="display: none;"># Or maybe this?
 
-%w(cat horse armadillo).select do |animal|
-  animal.length > 5
+(1..10)select do |number|
+  number.even?
 end</textarea>
   </div>
 
   </br>
 
   <div class="slide">
-    <textarea class="code" mode="ruby" style="display: none;"># And finally this...
+    <textarea class="code" mode="ruby" style="display: none;"># How about this?
 
-(1..10).select(&:odd?)</textarea>
+(1..10).select(&:even?)</textarea>
 </section>
 
 <!-- /Blocks -->
@@ -82,14 +82,13 @@ end</textarea>
 </section>
 
 <section class="slide">
-  <h2>Lambdas</h2>
+  <h2>λ Lambdas</h2>
   <p>
   Lambdas are almost exactly like Procs, except when they're not
   </p>
 </section>
 
 <!-- End slides. -->
-
 
 <!-- Begin extension snippets. Add or remove as needed. -->
 
