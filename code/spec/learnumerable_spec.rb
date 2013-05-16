@@ -1,5 +1,12 @@
 require_relative '../learnumerable'
 
+class Array
+  # Reopen `Array` and mix in `Learnumerable` so that we may test our
+  # custom implementation of select
+  include Learnumerable
+end
+
+
 describe "Learnumerable" do
   describe "#learn_select" do
     let(:input) { (1..10).to_a }

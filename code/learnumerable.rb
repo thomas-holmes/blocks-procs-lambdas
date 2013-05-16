@@ -12,8 +12,3 @@ module Learnumerable
 
   end
 end
-
-class Array
-  # Reopen the standard array and mix in our method, learn_select
-  include Learnumerable
-end
