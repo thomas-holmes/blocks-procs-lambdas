@@ -1,11 +1,9 @@
 module Learnumerable
-  def learn_select(&f)
-    return self if f.nil? # This isn't the same as Enumerable.select
-
+  def learn_select
     result = []
 
     for i in self
-      result << i if f.call(i)
+      result << i if yield(i)
     end
 
     result 
